@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: #212122;
+}
+.contain-footer{
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	color: #007ced;
+	border-top: 1px solid;
+}
+
+.sns-content{
+	display: flex;
+	flex-grow: 1;
+	font-size: 30px;
+}
+
+.sns-content .sns-item{
+	padding: 0px 20px;
+}
+
+.sns-content .sns-item .iconify{
+	opacity: 0.5;
+}
+
+.sns-content .sns-item .iconify:hover{
+	opacity: 1;
+}
+
+.the-lost-owl{
+	font-size: 12px;
+}

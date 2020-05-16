@@ -1,0 +1,72 @@
+
+.container-pricing{
+	display: flex;
+	justify-content: space-around;
+}
+
+.pricing-content{
+	margin: auto;
+	min-width: 200px;
+	width: 200px;
+	background-color: #323233;
+	padding: 20px;
+	text-align: center;
+	color: #d5d5d5;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px #323232;
+	transition: all 0.7s;
+	transform: scale(0.95);
+}
+
+.pricing-content:hover{
+	box-shadow: 0px 0px 10px #323232;
+	transform: scale(1);
+
+}
+
+.pricing-content .chose{
+	text-transform: uppercase;
+	padding: 20px 0px; 
+	background-color: #323232;
+}
+
+.pricing-content .price{
+	font-size: 35px;
+	padding-bottom: 5px;
+	background-color: #323232;
+}
+
+.pricing-content .permonth{
+	font-size: 12px;
+	background-color: #323232;
+}
+
+.pricing-content .trial{
+	margin-top: 10px;
+	padding: 15px 10px;
+	border: 1px solid;
+	border-radius: 20px;
+	margin: 15px 50px;
+	text-transform: capitalize;
+	transition: all 0.5s;
+	background-color: #323232;
+}
+
+.pricing-content .text{
+	background-color: #323232;
+}
+
+.pricing-content .trial:hover{
+	background-color: #d5d5d5;
+	color: #323233;
+}
+
+.pricing-content .gold{
+	border-color: #007ced;
+	background-color: #323232;
+}
+
+.pricing-content .gold:hover{
+	background-color: #007ced;
+	color: #d5d5d5;
+}

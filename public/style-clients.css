@@ -1,0 +1,19 @@
+
+.clients-overlay{
+	display: inline;
+
+}
+.container-clients .clients-item{
+	transition: all 0.7s;
+	opacity: 0.5;
+}
+
+.container-clients .clients-item:hover{
+	opacity: 1;
+}
+
+.clients-item img{
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
